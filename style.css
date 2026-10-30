@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{    
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 85%;
+    height: 9vh;
+    margin-top: 30px;
+    align-items: center;
+}
+.elementos{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.pesquisa{
+    display: flex;
+    background-color: blue;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 140px;
+    height: 3vh;
+    border-radius: 20px;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 70px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.informacoes{
+    width: 45%;
+    height: 75px;
+    background-color: #093f65;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.destaque{
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.informacoes p{
+    color: white;
+}
+
+.atalhos {
+    width: 100%;
+    height: 120px;
+    background-color: #eaf6fc;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+}
+.item p {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.destino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -43px;
+}
+.roma2{    
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/coliseu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.rodape{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(171, 201, 228);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.logo-rodape {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.logo-rodape p {
+    color: #093f65;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.logo-rodape span {
+    color: #093f65;
+    font-size: 28px;
+}
+
+.menu-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    flex: 1;
+}
+.menu-rodape a {
+    color: #093f65;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 30px;
+}
+
+.redes-sociais a {
+    width: 35px;
+    height: 35px;
+    background-color: #1675b9;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+.imagens img {
+    width: 23%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.alinha {
+    width: 98%;
+    height: 60px;
+    background-color: rgb(171, 201, 228);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin: -45px auto 0;
+    position: relative;
+}
+.borda{
+    border: 2px solid red;
+}
